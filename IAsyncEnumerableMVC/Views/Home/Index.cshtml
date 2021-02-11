@@ -1,0 +1,11 @@
+﻿@model IEnumerable<string>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach(var content in Model)
+{
+<h1>@content </h1>
+<br/>
+}
